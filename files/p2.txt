@@ -1,0 +1,13 @@
+@number=input_number();
+@div=0;
+@length=length(@number);
+for @i->2 , @length , 2:
+[
+if ( @number/@i ==== 1 )
+@div=1;
+stop;
+]
+if( @div ==== 0 )
+[SHOW 'yes';]
+else
+[SHOW 'no';]

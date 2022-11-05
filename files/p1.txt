@@ -1,0 +1,11 @@
+@number_one=input_number();
+@number_two=input_number();
+@number_three=input_number();
+@max=0;
+if (@number_one > @number_two && @number_one > @number_three)
+[@max=@number_one;]
+elif (@number_two > @number_one && @number_two > @number_three)
+[@max=@number_two;]
+elif (@number_three > @number_one && @number_three > @number_two)
+[@max=@number_three;]
+SHOW @max;
